@@ -8,6 +8,9 @@
 - Provides visual feedback for gestures and current volume levels.
 - Reacts to gestures such as muting when the fingers are brought close together.
 
+## Demo
+![Gesture Volume Control Demo](./volume.gif)
+
 ## How It Works
 1. **Hand Detection**: Uses MediaPipe's Hand Tracking module to detect and track hand landmarks.
 2. **Distance Measurement**: Calculates the distance between the tips of the index finger and thumb.
